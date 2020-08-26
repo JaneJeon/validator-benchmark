@@ -1,0 +1,30 @@
+{
+  "name": "benchmarkify",
+  "version": "2.1.2",
+  "description": "Benchmark runner for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node examples"
+  },
+  "keywords": [
+    "benchmark",
+    "performance",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/icebob/benchmarkify.git"
+  },
+  "author": "Icebob",
+  "license": "MIT",
+  "reveal": true,
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "lodash": "^4.17.20",
+    "ora": "^5.0.0",
+    "tiny-human-time": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0"
+  }
+}

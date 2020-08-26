@@ -1,0 +1,11 @@
+{
+  "displayName": "sync",
+  "globals": {
+    "YUP_USE_SYNC": true
+  },
+  "testEnvironment": "node",
+  "setupFilesAfterEnv": ["./test-setup.js"],
+  "roots": ["test"],
+  "testRegex": "\\.js",
+  "testPathIgnorePatterns": ["helpers\\.js"]
+}
